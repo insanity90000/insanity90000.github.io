@@ -1,0 +1,76 @@
+body{
+	font-family: 'Josefin Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	color: white;
+}
+.main-header{
+	background-color: rgb(143, 142, 142);
+	padding: .1em;
+	margin: 0;
+}
+.main-header li{
+	display:inline;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+.home-image{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://i.imgur.com/VK08ujI.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.home-text{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 34px;
+}
+.prototype-image{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("cooking.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.prototype-text{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 34px;
+}
+.about-image{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("delivery.jpg");
+	height:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.about-text{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 34px;
+}
+.bottom-footer{
+	background-color: rgb(143, 142, 142);
+	padding: .1em;
+	margin: 0;
+}
+.bottom-footer li{
+	display: inline;
+	padding: .9em
+}
+.bottom-footer p{
+	text-align: right;
+}
